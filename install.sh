@@ -15,5 +15,7 @@ then
 fi
 
 
+echo "Now logout and login again."
+
 
 
