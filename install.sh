@@ -16,6 +16,6 @@ fi
 
 
 echo "Now logout and login again."
-
+echo "Next time you login open the terminal first befor any other app."
 
 
