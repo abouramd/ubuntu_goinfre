@@ -7,7 +7,7 @@ if [ "$CACHE_GOFR" = "" ]; then
 fi
 if [ "$CACHE_SYM" = "" ]; then
     echo "MOVING CACHE TO GOINFRE :)"
-    mv $HOME/.cache $HOME/goinfre/.cache_backup
+    rm -rf $HOME/.cache/*/*/*/*
     rm -rf $HOME/.cache; ln -s $HOME/goinfre/.cache $HOME/.cache;
 fi
 
